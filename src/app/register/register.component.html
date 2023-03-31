@@ -1,0 +1,74 @@
+
+
+    <div class="main">
+      <div class="data">
+          <mat-card class="zope">
+              <!-- <mat-icon class="closeButton" mat-dialog-close >close</mat-icon> -->
+              <h1 class="heading">Reactive Form</h1>
+  
+              <form [formGroup]="myForm" class="formDesign">
+  
+                  <mat-form-field appearance="outline">
+                      <mat-label>Name</mat-label>
+                      <input matInput formControlName="Name">
+                      <mat-icon matSuffix>person</mat-icon>
+  
+                      <mat-error *ngIf="!myForm.controls['Name'].valid && myForm.controls['Name'].touched">
+                          Name is required
+                      </mat-error>
+                  </mat-form-field> <br><br>
+                  <mat-form-field appearance="outline">
+                      <mat-label>City</mat-label>
+                      <input matInput formControlName="City">
+                      <mat-icon matSuffix>room</mat-icon>
+  
+                      <mat-error *ngIf="!myForm.controls['City'].valid && myForm.controls['City'].touched">
+                          City is required
+  
+                      </mat-error>
+                  </mat-form-field> <br><br>
+                  <mat-form-field appearance="outline">
+                      <mat-label>Email</mat-label>
+                      <input matInput formControlName="Email">
+                      <mat-icon matSuffix>email</mat-icon>
+  
+                      <mat-error *ngIf="!myForm.controls['Email'].valid && myForm.controls['Email'].touched">
+                          Email is required
+  
+                          <small *ngIf="!myForm.controls['Email'].invalid && myForm.controls['Email'].touched">
+                              Email is not correct
+                          </small>
+  
+                      </mat-error>
+                  </mat-form-field> <br><br>
+                  <mat-form-field appearance="outline" class="pan">
+                      <mat-label>Pan Number</mat-label>
+                      <input matInput formControlName="Pan" maxlength="10">
+                      <mat-icon matSuffix>style</mat-icon>
+                      <mat-error  *ngIf="!myForm.controls['Pan'].valid && myForm.controls['Pan'].touched">
+                          Pan Number is required
+                          <small *ngIf="!myForm.controls['Pan'].invalid && myForm.controls['Pan'].touched">
+                              Pan Number is not correct
+                          </small></mat-error>
+                  </mat-form-field>
+                  <br><br>
+                  <mat-form-field appearance="outline">
+                      <mat-label>Mobile Number</mat-label>
+                      <!-- <span matPrefix>+91 &nbsp;</span> -->
+                      <input matInput formControlName="Mobile" maxlength="10">
+                      <mat-icon matSuffix>call</mat-icon>
+                      <mat-error *ngIf="!myForm.controls['Mobile'].valid && myForm.controls['Mobile'].touched">
+                          Mobile is required</mat-error>
+                  </mat-form-field>
+                  <br><br>
+                  <div class="buttons">
+                      <button mat-raised-button type="submit" (click)="loginUser()" color="primary" >Submit</button>
+                      <!-- <button mat-raised-button (click)="openOtp()" >Submit</button> -->
+                      <!-- <button class="signIn" mat-raised-button (click)="onGoogleSignIn()">Sign In With
+                      <button class="signIn" mat-raised-button>Sign In With Google</button> -->
+                  </div>
+              </form>
+               
+          </mat-card>
+      </div>
+  </div>

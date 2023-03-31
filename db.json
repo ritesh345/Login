@@ -1,0 +1,119 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "Name": "Ritesh zope",
+      "City": "PUNE",
+      "Email": "zope0000@gmail.com",
+      "Pan": "ADSFG4512F",
+      "Mobile": "9876543215",
+      "id": 2
+    },
+    {
+      "Name": "ritesh",
+      "City": "mumbai",
+      "Email": "asdf@gmail.com",
+      "Pan": "ASDFG4521G",
+      "Mobile": "9876543218",
+      "id": 3
+    },
+    {
+      "Name": "akhil",
+      "City": "hydrabad",
+      "Email": "akhil@gmail.com",
+      "Pan": "QWERT8523U",
+      "Mobile": "9876543219",
+      "id": 4
+    },
+    {
+      "Name": "rahul",
+      "City": "uk",
+      "Email": "efsdfdf@gmail.com",
+      "Pan": "WERQT8574Y",
+      "Mobile": "9876543218",
+      "id": 5
+    },
+    {
+      "Name": "",
+      "City": "",
+      "Email": "",
+      "Pan": "",
+      "Mobile": "",
+      "id": 6
+    },
+    {
+      "Name": "",
+      "City": "",
+      "Email": "",
+      "Pan": "",
+      "Mobile": "",
+      "id": 7
+    },
+    {
+      "Name": "",
+      "City": "",
+      "Email": "",
+      "Pan": "",
+      "Mobile": "",
+      "id": 8
+    },
+    {
+      "otp": "428571",
+      "form": {
+        "Name": "",
+        "City": "",
+        "Email": "",
+        "Pan": "",
+        "Mobile": ""
+      },
+      "id": 9
+    },
+    {
+      "otp": "311679",
+      "form": {
+        "Name": "",
+        "City": "",
+        "Email": "",
+        "Pan": "",
+        "Mobile": ""
+      },
+      "id": 10
+    },
+    {
+      "otp": "834688",
+      "form": {
+        "Name": "",
+        "City": "",
+        "Email": "",
+        "Pan": "",
+        "Mobile": ""
+      },
+      "id": 11
+    },
+    {
+      "otp": "540421",
+      "form": {
+        "Name": "",
+        "City": "",
+        "Email": "",
+        "Pan": "",
+        "Mobile": ""
+      },
+      "id": 12
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

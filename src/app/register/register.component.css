@@ -1,0 +1,42 @@
+/* .full-width{
+  width: 100%;
+}
+
+.top-padding{
+  padding-top: 3px;
+}
+
+.margin-left mat-radio-button:not(:first-child){
+  margin-left:10px;
+}
+
+.form-container{
+  margin: 100px;
+} */
+
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.data{
+  /* height: 600px; */
+  width: 500px;
+  margin-top: 50px;
+  
+  
+} 
+
+.zope{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px; 
+}
+
+.buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
